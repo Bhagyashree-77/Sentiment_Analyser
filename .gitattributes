@@ -1,0 +1,2 @@
+imdb_cleaned_harry_reviews.csv filter=lfs diff=lfs merge=lfs -text
+model_save/model.safetensors filter=lfs diff=lfs merge=lfs -text
