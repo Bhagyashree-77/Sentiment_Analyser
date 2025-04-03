@@ -20,3 +20,4 @@ if st.button("Analyze Sentiment"):
         st.write(f"**Confidence Scores:** {result['score']}")
     else:
         st.warning("Please enter some text before analyzing.")
+## uvicorn backend:app --host 0.0.0.0 --port 8000 --reload
